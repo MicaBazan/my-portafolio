@@ -10,15 +10,17 @@
     <title>Micaela Bazán</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="./assets/media/logo.png" alt="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="#home">INICIO</a></li>
-                <li><a href="#sobre-mi">SOBRE MI</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#proyectos">PROYECTOS</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
+    <header class="contenedor-nav">
+        <div class="contenedor-imagen-nav">
+            <img src="./assets/media/logo.png" alt="logo">
+        </div>
+        <nav class="navegador">
+            <ul class="navegador__ul">
+                <li class="nav-list"><a class="link__a" href="#home">INICIO</a></li>
+                <li class="nav-list"><a class="link__a" href="#sobre-mi">SOBRE MI</a></li>
+                <li class="nav-list"><a class="link__a" href="#skills">SKILLS</a></li>
+                <li class="nav-list"><a class="link__a" href="#proyectos">PROYECTOS</a></li>
+                <li class="nav-list"><a class="link__a" href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -26,11 +28,11 @@
     <main>
 
         <section class="section-home" id="home">
-            <div class="row-home__div">
+            <div class="col-home__div">
                 <div class="home-presentacion">
-                    <h2>HOLA!</h2>
-                    <h3>SOY MICAELA BAZÁN</h3>
-                    <h4>Software Developer</h4>
+                    <h2 class="home-presentacion__h2">HOLA!</h2>
+                    <h3 class="home-presentacion__h3">SOY MICAELA BAZÁN</h3>
+                    <h4 class="home-presentacion__h4">Software Developer</h4>
                 </div>
                 <div class="home-perfil">
                     <img src="./assets/media/foto-perfil.png" alt="foto-perfil">
@@ -53,7 +55,7 @@
                     <div class="botones-sobre__div">
                         <a href="https://www.linkedin.com/in/micaela-gisela-baz%C3%A1n-74250b1b2/"><img src="./assets/media/linkedin.png" alt="linkedin"></a>
                         <a href="https://github.com/MicaBazan"><img src="./assets/media/github.png" alt="github"></a>
-                        <button>DESCARGAR CV</button>
+                        <button class="btn-cv btn btn-amarillo">DESCARGAR CV</button>
                     </div>
                 </div>
             </div>
@@ -84,8 +86,8 @@
                             <li>TypeScript</li>
                             <li>Angular</li>
                         </ul>
-                        <button>CÓDIGO</button>
-                        <button>DEMOSTRACIÓN</button>
+                        <button class="btn-codigo btn btn-amarillo">CÓDIGO</button>
+                        <button class="btn-demostracion btn btn-amarillo">DEMOSTRACIÓN</button>
                     </div>
                 </div>
             </div>
@@ -110,7 +112,7 @@
                             <input type="email" name="email" id="email-contacto" required>
                             <input type="number" name="" id="">
                             <textarea name="texto" id="texto-contacto" cols="30" rows="10" required></textarea>
-                            <button>ENVIAR MENSAJE</button>
+                            <button class="btn-mensaje btn btn-amarillo">ENVIAR MENSAJE</button>
                         </form>
                     </div>
                 </div>
@@ -120,7 +122,7 @@
     </main>
     
     <footer>
-        
+
     </footer>
     <a href="#home" class="btn-flotante">Volver al inicio</a>
 </body>
