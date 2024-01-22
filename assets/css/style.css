@@ -23,7 +23,7 @@ li {
 
 body{
     background-color: black;
-    font-family: 'Montserrat', sans-seri;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -33,6 +33,154 @@ body{
 .navbar-brand > img {
     height: 45px;
 }
+
+.section-home {
+    padding-top: 150px;
+}
+
+.col-home__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-presentacion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 50px;
+}
+
+.home-presentacion__h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.home-presentacion__h3 {
+    font-size: 40px;
+    color: var(--color-verde);
+}
+
+.home-presentacion__h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.home-perfil {
+    padding-top: 90px;
+}
+
+.home-perfil > img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.section-sobre-mi {
+    padding-top: 150px;
+}
+
+.sobre-mi__img {
+    display: none;
+}
+
+.content-info-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.titulo-sobre__h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.info-sobre__div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.info-sobre__h4 {
+    font-size: 28px;
+    color: rgb(228, 223, 223);
+}
+
+.info-sobre__h5 {
+    color: rgb(228, 223, 223);
+}
+
+.info-sobre__p {
+    padding-top: 20px;
+    color: rgb(228, 223, 223);
+}
+
+.botones-sobre__div {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.botones-sobre__div > a > img {
+    width: 40px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--color-amarillo);
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid var(--color-amarillo);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 var(--color-amarillo);
+}
+
+.btn:hover {
+    color: black;
+    box-shadow: inset 0 -100px 0 0 var(--color-amarillo);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.section-skills {
+    padding-top: 150px;
+}
+
+.row-skills__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-skills {
+    font-size: 40px;
+    color: white;
+    
+}
+
+
+
+.section-proyectos {
+    padding-top: 150px;
+}
+
+
+.section-contacto {
+    padding-top: 150px;
+}
+
 /*
 .menu {
     height: 65px;
