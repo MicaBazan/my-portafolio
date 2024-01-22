@@ -26,6 +26,91 @@ body{
     font-family: 'Montserrat', sans-seri;
 }
 
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand > img {
+    height: 45px;
+}
+/*
+.menu {
+    height: 65px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-imagen-nav {
+    padding-left: 40px;
+}
+
+.contenedor-imagen-nav > img{
+    width: 43px;
+}
+
+.menu_items {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-right: 30px;
+    position: fixed;
+    width: 100vw;
+    height: calc(100% -65px);
+    background: #414141;
+    top: -100vw;
+    text-align: center;
+    transition: all .4s;
+}
+
+.nav-list {
+    border-radius: 3px;
+    margin: 30  0 0 0;
+    line-height: 30px;
+}
+
+.link__a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+.link__a :hover {
+    color: #e918e9;
+}
+
+/*.nav-list :hover, .active{
+    background-color: var(--color-verde);
+    transition: .6s;
+}*/
+/*
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+ul.show {
+    top: 65px;
+}
+
+@media screen and (max-width: 850px) and (orientation: landscape) {
+    .nav-list {
+        margin: 5px 0 0 0;
+    }
+    .menu_items {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+}
+
+
+/*
 .contenedor-nav {
     background-color: black;
     height: 65px;
@@ -36,7 +121,7 @@ body{
     position: sticky;
     top: 0;
     /*border-bottom: 1px solid white;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);*/
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
 .contenedor-imagen-nav {
@@ -73,7 +158,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     /*display block: para que los link ocupen todo el espacio disponible*/
-    display: block;
+   /* display: block;
     color: white;
     font-weight: bold;
 }
@@ -87,12 +172,16 @@ body{
     background-color: var(--color-verde);
     transition: .4s;
 }*/
-
+/*
 .btn-menu {
     margin-right: 30px;
     font-size: 27px;
     color: white;
     cursor: pointer;
+}
+
+ul.show {
+    top: 65px;
 }
 
 @media screen and (max-width: 850px) and (orientation: landscape) {
