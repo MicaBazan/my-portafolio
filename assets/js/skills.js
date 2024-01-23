@@ -3,11 +3,11 @@ const skills = {
     habilidades: [
         {
             nombre: "C#",
-            imagen: "./assets/media/c.svg"
+            imagen: "./assets/media/c.png"
         },
         {
             nombre: "SQL Server",
-            imagen: "./assets/media/sql.svg"
+            imagen: "./assets/media/sql.png"
         },
         {
             nombre: "HTML",
@@ -15,7 +15,7 @@ const skills = {
         },
         {
             nombre: "CSS",
-            imagen: "./assets/media/csspng.png"
+            imagen: "./assets/media/css.png"
         },
         {
             nombre: "JavaScript",

@@ -7,10 +7,12 @@ let htmlARenderizar = ""
 skills.habilidades.forEach((habilidad)=>{
     htmlARenderizar += `
             <div class="row-skills__div" id="my-skills">
-                <ul>
-                    <li>
-                        <img src="${habilidad.imagen}" alt="img skills">
-                        <p>${habilidad.nombre}</p>
+                <ul class="lista-skills">
+                    <li class="items-lista-skills">
+                        <div class="img-skills">
+                            <img src="${habilidad.imagen}" alt="img skills">
+                        </div> 
+                            <p>${habilidad.nombre}</p>
                     </li>
                 </ul>
             </div>

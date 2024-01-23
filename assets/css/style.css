@@ -156,12 +156,16 @@ body{
 
 .section-skills {
     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .row-skills__div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .titulo-skills {
@@ -170,11 +174,36 @@ body{
     
 }
 
+.items-lista-skills {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-lista-skills > p {
+    color: white;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.img-skills {
+    padding-top: 40px;
+}
+
+.img-skills > img{
+    height: 250px;
+}
+
 
 
 .section-proyectos {
     padding-top: 150px;
 }
+
+
+
+
 
 
 .section-contacto {
