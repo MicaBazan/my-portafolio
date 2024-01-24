@@ -163,15 +163,15 @@ body{
 
 .row-skills__div {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 10px;
+    padding: 25px;
 }
 
 .titulo-skills {
     font-size: 40px;
     color: white;
-    
 }
 
 .items-lista-skills {
@@ -184,7 +184,7 @@ body{
 .items-lista-skills > p {
     color: white;
     padding-top: 40px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .img-skills {
@@ -192,7 +192,7 @@ body{
 }
 
 .img-skills > img{
-    height: 250px;
+    height: 100px;
 }
 
 
