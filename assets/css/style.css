@@ -305,6 +305,41 @@ body{
     gap: 20px;
 }
 
+.footer {
+    padding: 20px;
+}
+
+.footer__div {
+    border-top: 2px solid #7e7e7e;
+}
+
+.lista-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.lista-footer__li > img {
+    width: 50px;
+}
+
+.btn-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #EEFB03;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    z-index: 1;
+}
+
 /*
 .menu {
     height: 65px;
