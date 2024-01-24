@@ -333,11 +333,15 @@ body{
     right: 20px;
     background-color: #EEFB03;
     color: black;
-    padding: 15px 20px;
+    padding: 15px 17px;
     border-radius: 50px;
     font-size: 15px;
     text-decoration: none;
     z-index: 1;
+}
+
+.btn-flotante > img {
+    width: 25px;
 }
 
 /*
