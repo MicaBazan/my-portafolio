@@ -195,13 +195,57 @@ body{
     height: 100px;
 }
 
-
-
 .section-proyectos {
     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.titulo-proyectos__h3 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 90px;
+}
 
+.col-proyectos__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.proyectos-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-proyecto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.proyectos__ul {
+    padding-left: 20px;
+}
+
+.nombre-proyecto {
+    color: white;
+    font-size: 25px;
+}
+
+.list-proyecto {
+    color: white;
+}
+
+.btn-proyecto {
+    margin: 5px;
+    padding: 13px 22px;
+}
 
 
 
