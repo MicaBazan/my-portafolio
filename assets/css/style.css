@@ -387,5 +387,56 @@ body{
         width: 400px;
         border-radius: 50%;
     }
+
+    .sobre-mi__img {
+        display: block;
+        padding-left: 5%;
+    }
+
+    .col-sobre__div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content-info-sobre{
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+
+    .info-sobre__div {
+        padding-top: 70px;
+    }
+
+    .sobre-mi__img > img {
+        width: 550px;
+    }
+
+    .row-contacto__div {
+        gap: 70px;
+        padding: 5px;
+    }
+
+    .col-contacto__div {
+        flex-direction: row;
+    }
+
+    .contacto-info {
+        justify-content: start;
+        gap: 70px;
+        padding-left: 1%;
+    }
+
+    .contacto__p {
+        padding: 0;
+    }
+
+    .lista-contacto__ul {
+        padding: 0;
+    }
+
+    .contacto-form {
+        padding: 0;
+    }
 }
 
