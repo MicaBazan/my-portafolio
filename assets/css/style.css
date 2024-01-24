@@ -221,6 +221,8 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #7e7e7e;
 }
 
 .info-proyecto {
@@ -248,10 +250,59 @@ body{
 }
 
 
-
-
 .section-contacto {
-    padding-top: 150px;
+    padding-top: 130px;
+}
+
+.row-contacto__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.titulo-contacto {
+    color: white;
+    font-size: 40px;
+}
+
+.col-contacto__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto__p {
+    color: white;
+    padding: 5px 30px;
+}  
+
+.lista-contacto__ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 70px;
+}
+
+.lista-contacto__li {
+    color: white;
+    list-style: none;
+    margin: 2px;
+}
+
+.contacto-form {
+    padding: 10px 50px;
+}
+
+.contacto-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /*
