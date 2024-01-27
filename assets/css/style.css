@@ -412,6 +412,10 @@ body{
         width: 550px;
     }
 
+    .section-skills {
+        padding: 150px;
+    }
+
     .row-contacto__div {
         gap: 70px;
         padding: 5px;
