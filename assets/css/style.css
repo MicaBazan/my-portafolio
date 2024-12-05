@@ -71,9 +71,8 @@ body{
 }
 
 .home-perfil > img {
-    /*width: 100px;*/
-    /*border-radius: 30%;*/
-    /*height: 400px;*/
+    width: 400px;
+    border-radius: 50%;
 }
 
 .section-sobre-mi {
